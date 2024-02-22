@@ -1,11 +1,16 @@
 @use 'hero';
+@use '../styles/components/information';
+@use '../styles/components/button';
+@use 'celebration';
+@use 'variables';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Great Vibes', cursive;
-    color: black;
+    color:variables.$textColor;
+    list-style: none;
 }
 
 
